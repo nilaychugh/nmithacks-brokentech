@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "terminal-controller": {
+      "command": "D:\\BackDataService\\terminal-controller-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "D:\\BackDataService\\terminal-controller-mcp\\terminal_controller.py"
+      ],
+      "env": {
+        "PYTHONPATH": "D:\\BackDataService\\terminal-controller-mcp"
+      }
+    }
+  }
+}

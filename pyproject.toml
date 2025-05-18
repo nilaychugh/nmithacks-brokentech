@@ -1,0 +1,34 @@
+[build-system]
+requires = [""]
+build-backend = ""
+
+[project]
+name = "terminal-controller"
+version = "0.1.8"
+description = "A Model Context Protocol (MCP) server for secure terminal command execution and file system operations"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [
+    {name = "brokentech", email = "brokentech@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
+]
+dependencies = [
+    "mcp[cli]>=1.3.0",
+    "httpx>=0.25.0",
+]
+keywords = ["terminal", "mcp", "claude", "command-line"]
+
+[project.urls]
+"Homepage" = "https://github.com/nilaychugh/nmithacks-brokentech"
+
+
